@@ -1,0 +1,179 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding-top: 0.025cm;
+    padding-bottom: 0.025cm;
+}
+header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+}
+header h3{
+    font-size: 25px;
+}
+img{
+    width: 300px;
+    height: 250px;
+    padding-left: 38%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+figcaption{
+    padding-left: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+figure{
+    background-color: rgba(238, 239, 240, 0.963);
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+}
+.c1 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.c1 a {
+    font-size: 20px;
+    text-decoration-line: none;
+}
+.c1 a:link{
+    color: rgb(21, 230, 21);
+}
+.c1 a:hover{
+    color: orange;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+.c1 a:active{
+    color: yellow;
+}
+.c1 a:visited{
+    color: rgb(210, 9, 210);
+}
+article{
+    background-color: rgba(238, 239, 240, 0.963);
+    border-radius: 10px;
+}
+#a1>h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(194, 187, 187, 0.772);
+    background-color: rgba(0, 255, 255, 0.878);
+    margin-left: 540px;
+    margin-right: 540px;
+    border-radius: 10px;
+    color: rgba(255, 76, 76, 0.963);            
+}
+#a1>p{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#a2>h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(194, 187, 187, 0.772);
+    background-color: rgba(0, 255, 255, 0.878);
+    margin-left: 330px;
+    margin-right: 330px;
+    border-radius: 10px;
+    color: rgba(255, 76, 76, 0.963);
+}
+#a2>ul>li{
+    background-color: white; 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#a3>h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(194, 187, 187, 0.772);
+    background-color: rgba(0, 255, 255, 0.878);
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 10px;
+    color: rgba(255, 76, 76, 0.963);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+}
+.grid{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration-line: none;
+}
+footer h3{
+    text-align: center;
+}
+footer a:link{
+    color: rgb(9, 215, 9);
+}
+footer a:hover{
+    color: orange;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+footer a:active{
+    color: yellow;
+}
+footer a:visited{
+    color: rgb(241, 14, 241);
+}
+footer h4{
+    text-align: right;
+    margin:0;
+}
+footer s{
+    color: rgb(255, 169, 57);
+}
